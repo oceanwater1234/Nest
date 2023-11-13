@@ -6,7 +6,7 @@ export class userController {
   constructor(private readonly userService: userService) {}
   
   @Get('')
-  userLogin(@Query('username') username: string, @Query('password') password: string ):string {
+  Login(@Query('username') username: string, @Query('password') password: string ):string {
     return this.userService.getHello(username , password)
   }
 }
