@@ -1,9 +1,8 @@
-import "../styles/inputbox.scss";
+import "../assets/styles/inputbox.scss";
 
-function InputBox(props) { 
-
+export default function InputBox(props) { 
   return (
-    <>
+    <div className="InputGroup">
       <div className="word">{props.text}</div>
       <input
         name={props.name}
@@ -11,7 +10,6 @@ function InputBox(props) {
         value={props.value}
         onChange={props.onChange}
       />
-    </>
+    </div>
   );
 }
-export default  InputBox;

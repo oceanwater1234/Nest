@@ -1,4 +1,10 @@
+.InputGroup{
+  display : flex;
+  flex-direction: row;
+  gap:24px;
 
+  align-items: center;
+  justify-content:  center;
 
   .word{
     color:white;
@@ -20,3 +26,4 @@
     letter-spacing: -0.32px;
     padding-left:24px;
   }
+}

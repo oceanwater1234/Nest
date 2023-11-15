@@ -22,9 +22,23 @@
 
   .InputWrapper {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       gap: 20px;
       align-items: center;
       padding: 12px 16px;
+  }
+
+  button{
+    color:white;
+    background-color:#353434;
+    
+    border-style:none;
+    border-radius: 5px;
+
+    width: 310px;
+    height: 30px;
+    
+
+    cursor: pointer;
   }
 }
